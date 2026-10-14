@@ -1,0 +1,49 @@
+https://www.tutorialspoint.com/assembly_programming/assembly_basic_syntax.htm
+https://benoit-m.developpez.com/assembleur/tutoriel/#LIII-B
+https://asm.developpez.com/cours/
+
+Pour l'installation du compilateur
+    - sudo apt update
+        on update au cas ou
+    - sudo apt install nasm
+        https://www.nasm.us/
+
+nasm -f elf64 hello.s
+gcc hello.o -o a.out
+ld -m elf_x86_64 -s -o hello hello.o 
+
+Syntax:
+https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm
+https://web.stanford.edu/class/cs107/resources/x86-64-reference.pdf
+
+
+Pour voir du C en ASM
+https://godbolt.org/
+
+list signal:
+https://syscall.sh/about
+https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/
+
+
+registre:
+https://www.cs.uaf.edu/2017/fall/cs301/lecture/09_11_registers.html
+
+
+malloc:
+https://www.cs.uaf.edu/2010/fall/cs301/lecture/10_04_malloc.html
+
+wrt ..plt :
+https://www.tortall.net/projects/yasm/manual/html/objfmt-elf32-wrt.html
+
+
+tdlelage:
+    well done for this libasm just try to save the 
+    used registers onto the stack to be sure that the other 
+    language's compiler don't break 
+    mov rdi ,rax mov rsi, rbx https://i.sstatic.net/4GBdc.png
+
+
+
+
+
+Aide (): togauthi() - mcolin() - maamine() - tdelage()
